@@ -9,8 +9,7 @@
             <!-- ログイン済みユーザのusernameを表示 -->
             ようこそ、{{username}} さん
           </div>
-          <li><router-link to="/ai">AIアプリ</router-link></li>
-          <li><router-link to="/chat">チャットアプリ</router-link></li>
+          <li><router-link to="/chat">チャット</router-link></li>
         </div>
         <router-view/>
       </div>
