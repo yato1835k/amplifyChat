@@ -1,5 +1,8 @@
 <template>
 <div>
+  <div class="title">
+    <h2>Amplifyで作るチャットアプリ</h2>
+  </div>
   <div class="main-contents">
     <div class="message_base">
         <div v-for="message in messages" :key="message.id">
